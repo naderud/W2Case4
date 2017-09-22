@@ -1,12 +1,49 @@
-﻿@/*
+@charset "utf-8";
+@font-face {
+	font-family: Champagne;
+	src: url('cac_champagne.woff') format('woff'),
+			 url('cac_champagne.ttf') format('truetype');
+  font-family: Dobkin;
+      src: url('DobkinPlain.woff') format('woff'),
+           url('DobkinPlain.ttf') format('truetype');
+}
+
+/*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 4
 
    Great Lakescape Lodge Style Sheet
-   Author:
-   Date:
+   Author: Nadean Rudolph
+   Date: 9/21/17
 
    Filename: lake_styles.css
 
 */
+
+
+/* Structural Styles */
+
+html {
+  background-color: tan;
+  font-family: Palatino Linotype, Book Antiqua, Palatino serif;
+}
+
+body {
+	background-color: hsl(12, 55%, 80%);
+	font-family: Palatino Linotype, Book Antiqua, Palatino serif;
+}
+
+
+header {
+	background-color: brown;
+}
+
+p {
+	margin: 2px;
+	padding: 5px 25px 25px 25px;
+}
+
+
+
+/* Navigation Styles */
