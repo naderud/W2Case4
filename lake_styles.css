@@ -36,13 +36,21 @@ body {
 
 
 header {
-	background-color: brown;
+	background-color: maroon;
 }
 
 p {
-	margin: 2px;
-	padding: 5px 25px 25px 25px;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	/*margin: 8px;*/
+	padding-left: 25px;
+	padding-top: 10px;
 }
+
+section h1{
+	font-family: Dobkin, cursive;
+	font-size: 2.5em;
+}
+
 
 footer{
 	font-style: normal;
@@ -55,6 +63,97 @@ footer{
 
 /* Navigation Styles */
 
-nav ul li{
+nav a{
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
+nav > ul > li > a:link, nav > ul > li > a:visited {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+nav > ul > li > a:active, nav > ul > li > a:hover {
+	color: hsla(0, 0%, 100%, 0.7);
+	background-color: hsl(0, 0%, 42%, 0.7);
+}
+
+
+
+/* Section Styles */
+
+
+section h1 {
+	font-family: Dobkin, cursive;
+	padding-left: 25px;
+}
+
+section nav h2 {
+	font-family: Dobkin, cursive;
+	font-size: 1.5em;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+
+section nav ul li {
+	font-style: normal;
+	list-style: none;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+section#rightcol {
+	background-color: hsl(220, 100%, 86%);
+}
+
+/* Aside Styles */
+
+aside {
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	margin: 25px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	background-color: hsl(80, 80%, 78%);
+}
+
+/*aside :last-of-type {
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	margin: 25px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	background-color: hsl(20, 80%, 78%);
+}*/
+
+aside h1 {
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+aside h2 {
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 1.3em;
+	text-align: left;
+	padding-left: 15px;
+}
+
+/*Blockquote Styles*/
+
+blockquote {
+	font-family: Palatino Linotype, Book Antiqua, Palatino serif;
+	font-size: 1.25em;
+	font-style: italic;
+	padding-top: 50px;
+	padding-bottom: 300px;
+}
+
+/*Footer Styles*/
+
+footer {
+	color: white;
+	background-color: purple;
+	padding: 15px;
 }
